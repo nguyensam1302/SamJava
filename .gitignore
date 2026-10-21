@@ -22,3 +22,11 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Không mang folder .idea lên server
+.idea/
+out/
+target/
+
+# Chặn tất cả các file có đuôi .iml
+*.iml
